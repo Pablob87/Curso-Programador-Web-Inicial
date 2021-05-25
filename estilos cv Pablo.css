@@ -1,0 +1,19 @@
+h1{
+    color:rgb(244, 245, 248);
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 1cm;
+    background-color: rgb(241, 157, 31);
+    background-image: url:;
+}
+h2{
+    color:orange;
+    font-family:'Franklin Gothic Medium';
+}
+h3{
+    color: orange;
+    font-family: 'Franklin Gothic Medium';
+}
+div{
+    font-family: 'Franklin Gothic Medium';
+}
