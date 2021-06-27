@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>Ejercicio 1 del Modulo 2</title>
+<link rel="stylesheet" href="estilos_css_mod2_ej1.css">
+</head>
+<body id="fondo">
+    <h1>Seleccionar color de fondo</h1>
+    <p>
+        <input type="button" id="rojo" value="Color rojo"/>
+    <p>
+        <input type="button" id="azul" value="Color azul"/>
+    </p>
+    <p>
+        <input type="button" id="verde" value="Color verde"/>
+    </p>
+
+</body>
+<script>
+    document.getElementById("rojo").addEventListener('click', function(){
+        document.getElementById("fondo").style.backgroundColor="red";
+    })
+    document.getElementById("azul").addEventListener('click', function(){
+        document.getElementById("fondo").style.backgroundColor="blue";
+    })
+    document.getElementById("verde").addEventListener('click', function(){
+        document.getElementById("fondo").style.backgroundColor="green";
+    })
+    
+</script>

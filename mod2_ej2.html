@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <title>Ejercicio 2 del Modulo 2</title>  
+</head>
+<body>
+    <textarea id="Contador" rows="5" cols="80"></textarea>
+    <div id="resultado"/>
+  </body>
+  <script>
+    document.getElementById('Contador').addEventListener("change", function(){
+      var cuenta = document.getElementById('Contador').value.length
+
+      document.getElementById('resultado').innerText = "La cantidad de caracteres es " + cuenta
+    });
+
+  </script>
+
+</html>

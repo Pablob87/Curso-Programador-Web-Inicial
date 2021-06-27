@@ -1,0 +1,12 @@
+#fondo {}
+#rojo {
+    width: fit-content;
+    background-color: red;
+}
+#azul {
+    background-color: blue;
+
+}
+#verde {
+    background-color: green;
+}
