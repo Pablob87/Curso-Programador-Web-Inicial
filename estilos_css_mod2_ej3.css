@@ -1,0 +1,21 @@
+.container-fluid {
+    padding-right: 600px;
+    padding-left: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4mm;
+}
+.slogan {
+    color: white;
+}
+.nav-link {
+    font-size:4mm;
+}
+.col-6 {
+   display: table-cell;
+   vertical-align: middle;
+}
+.nav-item active {
+    color: orange;
+}
